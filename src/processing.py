@@ -1,4 +1,4 @@
-def filter_by_state(list_of_dicts: list, state="EXECUTED") -> list:
+def filter_by_state(list_of_dicts: list, state: str = "EXECUTED") -> list:
     """Функция, которая фильтрует список по статусу"""
     new_list_of_dicts = []
 
