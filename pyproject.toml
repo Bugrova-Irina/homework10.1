@@ -8,6 +8,7 @@ packages = [{include = "homework10"}]
 
 [tool.poetry.dependencies]
 python = "^3.13"
+flake8 = "^7.1.1"
 
 
 [tool.poetry.group.lint.dependencies]
